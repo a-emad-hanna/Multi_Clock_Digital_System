@@ -1,0 +1,65 @@
+ 
+****************************************
+check_design summary:
+Version:     K-2015.06
+Date:        Mon Aug 19 03:29:47 2024
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                      1
+    Shorted outputs (LINT-31)                                       1
+
+Cells                                                              33
+    Cells do not drive (LINT-1)                                    21
+    Connected to power or ground (LINT-32)                         10
+    Nets connected to multiple pins on same cell (LINT-33)          2
+--------------------------------------------------------------------------------
+
+Warning: In design 'ALU', cell 'B_18' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'B_19' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'B_20' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C375' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'B_22' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'B_23' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'B_24' does not drive any nets. (LINT-1)
+Warning: In design 'ClkDiv', cell 'C120' does not drive any nets. (LINT-1)
+Warning: In design 'SYS_CTRL', cell 'C498' does not drive any nets. (LINT-1)
+Warning: In design 'UART_RX_FSM', cell 'C361' does not drive any nets. (LINT-1)
+Warning: In design 'UART_RX_FSM', cell 'B_23' does not drive any nets. (LINT-1)
+Warning: In design 'UART_RX_FSM', cell 'B_24' does not drive any nets. (LINT-1)
+Warning: In design 'UART_RX_FSM', cell 'B_25' does not drive any nets. (LINT-1)
+Warning: In design 'UART_RX_FSM', cell 'B_26' does not drive any nets. (LINT-1)
+Warning: In design 'UART_RX_FSM', cell 'B_27' does not drive any nets. (LINT-1)
+Warning: In design 'UART_RX_FSM', cell 'B_28' does not drive any nets. (LINT-1)
+Warning: In design 'UART_RX_FSM', cell 'B_29' does not drive any nets. (LINT-1)
+Warning: In design 'UART_RX_edge_bit_counter', cell 'C256' does not drive any nets. (LINT-1)
+Warning: In design 'UART_RX_edge_bit_counter', cell 'C260' does not drive any nets. (LINT-1)
+Warning: In design 'UART_RX_edge_bit_counter', cell 'C264' does not drive any nets. (LINT-1)
+Warning: In design 'UART_TX_Serializer', cell 'C159' does not drive any nets. (LINT-1)
+Warning: In design 'UART_RX_FSM', output port 'PAR_ERR_RST' is connected directly to output port 'STOP_ERR_RST'. (LINT-31)
+Warning: In design 'System_Top', a pin on submodule 'TX_CLK_DIV' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_clk_en' is connected to logic 1. 
+Warning: In design 'System_Top', a pin on submodule 'RX_CLK_DIV' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_clk_en' is connected to logic 1. 
+Warning: In design 'System_Top', a pin on submodule 'RX_CLK_DIV' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[7]' is connected to logic 0. 
+Warning: In design 'System_Top', a pin on submodule 'RX_CLK_DIV' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[6]' is connected to logic 0. 
+Warning: In design 'System_Top', a pin on submodule 'RX_CLK_DIV' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[5]' is connected to logic 0. 
+Warning: In design 'System_Top', a pin on submodule 'RX_CLK_DIV' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[4]' is connected to logic 0. 
+Warning: In design 'System_Top', a pin on submodule 'RX_CLK_DIV' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[3]' is connected to logic 0. 
+Warning: In design 'UART_TX_TOP', a pin on submodule 'M1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'FIRST' is connected to logic 0. 
+Warning: In design 'UART_TX_TOP', a pin on submodule 'M1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'LAST' is connected to logic 1. 
+Warning: In design 'UART_TX_TOP', a pin on submodule 'M1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IDLE' is connected to logic 1. 
+Warning: In design 'System_Top', the same net is connected to more than one pin on submodule 'RX_CLK_DIV'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'i_div_ratio[7]', 'i_div_ratio[6]'', 'i_div_ratio[5]', 'i_div_ratio[4]', 'i_div_ratio[3]'.
+Warning: In design 'UART_TX_TOP', the same net is connected to more than one pin on submodule 'M1'. (LINT-33)
+   Net '*Logic1*' is connected to pins 'LAST', 'IDLE''.
+1

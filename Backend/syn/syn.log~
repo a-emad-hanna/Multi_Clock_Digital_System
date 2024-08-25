@@ -1,0 +1,308 @@
+                                        
+                           Design Compiler Graphical 
+                                 DC Ultra (TM)
+                                  DFTMAX (TM)
+                              Power Compiler (TM)
+                                 DesignWare (R)
+                                 DC Expert (TM)
+                               Design Vision (TM)
+                               HDL Compiler (TM)
+                               VHDL Compiler (TM)
+                                  DFT Compiler
+                               Design Compiler(R)
+                                        
+                 Version K-2015.06 for linux64 - May 28, 2015 
+                                        
+                    Copyright (c) 1988 - 2015 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+Initializing...
+Initializing gui preferences from file  /home/IC/.synopsys_dv_prefs.tcl
+########################### Define Top Module ############################
+set top_module UART_TX_TOP
+UART_TX_TOP
+##################### Define Working Library Directory ######################
+define_design_lib work -path ./work
+1
+################## Design Compiler Library Files #setup ######################
+lappend search_path /home/IC/Labs/Ass_Syn_2.0/std_cells
+. /opt/Synopsys/Synplify2015/libraries/syn /opt/Synopsys/Synplify2015/minpower/syn /opt/Synopsys/Synplify2015/dw/syn_ver /opt/Synopsys/Synplify2015/dw/sim_ver /home/IC/Labs/Ass_Syn_2.0/std_cells
+lappend search_path /home/IC/Labs/Ass_Syn_2.0/rtl
+. /opt/Synopsys/Synplify2015/libraries/syn /opt/Synopsys/Synplify2015/minpower/syn /opt/Synopsys/Synplify2015/dw/syn_ver /opt/Synopsys/Synplify2015/dw/sim_ver /home/IC/Labs/Ass_Syn_2.0/std_cells /home/IC/Labs/Ass_Syn_2.0/rtl
+set SSLIB "scmetro_tsmc_cl013g_rvt_ss_1p08v_125c.db"
+scmetro_tsmc_cl013g_rvt_ss_1p08v_125c.db
+set TTLIB "scmetro_tsmc_cl013g_rvt_tt_1p2v_25c.db"
+scmetro_tsmc_cl013g_rvt_tt_1p2v_25c.db
+set FFLIB "scmetro_tsmc_cl013g_rvt_ff_1p32v_m40c.db"
+scmetro_tsmc_cl013g_rvt_ff_1p32v_m40c.db
+## Standard Cell libraries 
+set target_library [list $SSLIB $TTLIB $FFLIB]
+scmetro_tsmc_cl013g_rvt_ss_1p08v_125c.db scmetro_tsmc_cl013g_rvt_tt_1p2v_25c.db scmetro_tsmc_cl013g_rvt_ff_1p32v_m40c.db
+## Standard Cell & Hard Macros libraries 
+set link_library [list * $SSLIB $TTLIB $FFLIB]  
+* scmetro_tsmc_cl013g_rvt_ss_1p08v_125c.db scmetro_tsmc_cl013g_rvt_tt_1p2v_25c.db scmetro_tsmc_cl013g_rvt_ff_1p32v_m40c.db
+#echo "###############################################"
+#echo "############# Reading RTL Files  ##############"
+#echo "###############################################"
+set file_names {FSM.v MUX.v Parity_Calculator.v Serializer.v UART_Tx_tb.v UART_Tx_TOP.v}
+FSM.v MUX.v Parity_Calculator.v Serializer.v UART_Tx_tb.v UART_Tx_TOP.v
+read_file -format verilog $file_names
+Loading db file '/opt/Synopsys/Synplify2015/libraries/syn/gtech.db'
+Loading db file '/opt/Synopsys/Synplify2015/libraries/syn/standard.sldb'
+  Loading link library 'gtech'
+Error: Cannot read file 'FSM.v'. (UID-58)
+Error: Cannot read file 'MUX.v'. (UID-58)
+Error: Cannot read file 'Parity_Calculator.v'. (UID-58)
+Error: Cannot read file 'Serializer.v'. (UID-58)
+Error: Cannot read file 'UART_Tx_tb.v'. (UID-58)
+Error: Cannot read file 'UART_Tx_TOP.v'. (UID-58)
+No designs were read
+###################### Defining toplevel ###################################
+current_design $top_module
+Error: Can't find design 'UART_TX_TOP'. (UID-109)
+Error: Current design is not defined. (UID-4)
+#################### Liniking All The Design Parts #########################
+puts "###############################################"
+###############################################
+puts "######## Liniking All The Design Parts ########"
+######## Liniking All The Design Parts ########
+puts "###############################################"
+###############################################
+link 
+Error: Current design is not defined. (UID-4)
+0
+#################### Liniking All The Design Parts #########################
+puts "###############################################"
+###############################################
+puts "######## checking design consistency ##########"
+######## checking design consistency ##########
+puts "###############################################"
+###############################################
+check_design
+Error: Current design is not defined. (UID-4)
+0
+############################### Path groups ################################
+puts "###############################################"
+###############################################
+puts "################ Path groups ##################"
+################ Path groups ##################
+puts "###############################################"
+###############################################
+group_path -name INREG -from [all_inputs]
+Error: Current design is not defined. (UID-4)
+Error: Value for list '-from' must have 1 elements. (CMD-036)
+0
+group_path -name REGOUT -to [all_outputs]
+Error: Current design is not defined. (UID-4)
+Error: Value for list '-to' must have 1 elements. (CMD-036)
+0
+group_path -name INOUT -from [all_inputs] -to [all_outputs]
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Value for list '-from' must have 1 elements. (CMD-036)
+Error: Value for list '-to' must have 1 elements. (CMD-036)
+0
+#################### Define Design Constraints #########################
+puts "###############################################"
+###############################################
+puts "############ Design Constraints #### ##########"
+############ Design Constraints #### ##########
+puts "###############################################"
+###############################################
+source -echo ./cons.tcl
+# Constraints
+# ----------------------------------------------------------------------------
+#
+# 1. Master Clock Definitions
+#
+# 2. Generated Clock Definitions
+#
+# 3. Clock Uncertainties
+#
+# 4. Clock Latencies 
+#
+# 5. Clock Relationships
+#
+# 6. set input/output delay on ports
+#
+# 7. Driving cells
+#
+# 8. Output load
+####################################################################################
+#########################################################
+#### Section 1 : Clock Definition ####
+#########################################################
+#################################################################################### 
+# 1. Master Clock Definitions 
+# 2. Generated Clock Definitions
+# 3. Clock Latencies
+# 4. Clock Uncertainties
+# 4. Clock Transitions
+####################################################################################
+set CLK_NAME CLK
+set CLK_PER 100000
+set CLK_SETUP_SKEW 0.25
+set CLK_HOLD_SKEW 0.05
+set CLK_LAT 0
+set CLK_RISE 0.1
+set CLK_FALL 0.1
+create_clock -name $CLK_NAME -period $CLK_PER -waveform "0 [expr $CLK_PER/2]" [get_ports CLK]
+Error: Current design is not defined. (UID-4)
+Error: Can't find port 'CLK'. (UID-109)
+Error: Value for list 'source_objects' must have 1 elements. (CMD-036)
+set_clock_uncertainty -setup $CLK_SETUP_SKEW [get_clocks $CLK_NAME]
+Error: Current design is not defined. (UID-4)
+Error: Can't find clock 'CLK'. (UID-109)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+set_clock_uncertainty -hold $CLK_HOLD_SKEW  [get_clocks $CLK_NAME]
+Error: Current design is not defined. (UID-4)
+Error: Can't find clock 'CLK'. (UID-109)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+set_clock_transition -rise $CLK_RISE  [get_clocks $CLK_NAME]
+Error: Current design is not defined. (UID-4)
+Error: Can't find clock 'CLK'. (UID-109)
+Error: Value for list 'clock_list' must have 1 elements. (CMD-036)
+set_clock_transition -fall $CLK_FALL  [get_clocks $CLK_NAME]
+Error: Current design is not defined. (UID-4)
+Error: Can't find clock 'CLK'. (UID-109)
+Error: Value for list 'clock_list' must have 1 elements. (CMD-036)
+set_clock_latency $CLK_LAT [get_clocks $CLK_NAME]
+Error: Current design is not defined. (UID-4)
+Error: Can't find clock 'CLK'. (UID-109)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+set_dont_touch_network CLK
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'CLK'. (UID-109)
+Error: Value for list '<object_list>' must have 1 elements. (CMD-036)
+set_dont_touch_network RST			  
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'RST'. (UID-109)
+Error: Value for list '<object_list>' must have 1 elements. (CMD-036)
+####################################################################################
+#########################################################
+#### Section 2 : Clocks Relationships ####
+#########################################################
+####################################################################################
+####################################################################################
+#########################################################
+#### Section 3 : set input/output delay on ports ####
+#########################################################
+####################################################################################
+set in_delay  [expr 0.3*$CLK_PER]
+set out_delay [expr 0.3*$CLK_PER]
+set in_ports  [list parity_enable parity_type parallel_data data_valid]
+set out_ports [list tx_out busy]
+#Constrain Input Paths
+set_input_delay $in_delay -clock $CLK_NAME [get_ports $in_ports]
+Error: Current design is not defined. (UID-4)
+Error: Can't find port 'parity_enable'. (UID-109)
+Error: Current design is not defined. (UID-4)
+Error: Can't find port 'parity_type'. (UID-109)
+Error: Current design is not defined. (UID-4)
+Error: Can't find port 'parallel_data'. (UID-109)
+Error: Current design is not defined. (UID-4)
+Error: Can't find port 'data_valid'. (UID-109)
+Error: Current design is not defined. (UID-4)
+Error: Can't find clock 'CLK'. (UID-109)
+Error: Value for list '-clock' must have 1 elements. (CMD-036)
+Error: Value for list 'port_pin_list' must have 1 elements. (CMD-036)
+#Constrain Output Paths
+set_output_delay $out_delay -clock $CLK_NAME [get_ports $out_ports]
+Error: Current design is not defined. (UID-4)
+Error: Can't find port 'tx_out'. (UID-109)
+Error: Current design is not defined. (UID-4)
+Error: Can't find port 'busy'. (UID-109)
+Error: Current design is not defined. (UID-4)
+Error: Can't find clock 'CLK'. (UID-109)
+Error: Value for list '-clock' must have 1 elements. (CMD-036)
+Error: Value for list 'port_pin_list' must have 1 elements. (CMD-036)
+####################################################################################
+#########################################################
+#### Section 4 : Driving cells ####
+#########################################################
+####################################################################################
+set_driving_cell -library scmetro_tsmc_cl013g_rvt_ss_1p08v_125c -lib_cell BUFX2M -pin Y [get_ports $in_ports]
+Error: Current design is not defined. (UID-4)
+Error: Can't find port 'parity_enable'. (UID-109)
+Error: Current design is not defined. (UID-4)
+Error: Can't find port 'parity_type'. (UID-109)
+Error: Current design is not defined. (UID-4)
+Error: Can't find port 'parallel_data'. (UID-109)
+Error: Current design is not defined. (UID-4)
+Error: Can't find port 'data_valid'. (UID-109)
+Error: Value for list 'port_list' must have 1 elements. (CMD-036)
+####################################################################################
+#########################################################
+#### Section 5 : Output load ####
+#########################################################
+####################################################################################
+set_load 0.5  [get_ports $out_ports]
+Error: Current design is not defined. (UID-4)
+Error: Can't find port 'tx_out'. (UID-109)
+Error: Current design is not defined. (UID-4)
+Error: Can't find port 'busy'. (UID-109)
+Error: Value for list 'objects' must have 1 elements. (CMD-036)
+####################################################################################
+#########################################################
+#### Section 6 : Operating Condition ####
+#########################################################
+####################################################################################
+# Define the Worst Library for Max(#setup) analysis
+# Define the Best Library for Min(hold) analysis
+set_operating_conditions -min_library "scmetro_tsmc_cl013g_rvt_ff_1p32v_m40c" -min "scmetro_tsmc_cl013g_rvt_ff_1p32v_m40c" -max_library "scmetro_tsmc_cl013g_rvt_ss_1p08v_125c" -max "scmetro_tsmc_cl013g_rvt_ss_1p08v_125c"
+Error: Current design is not defined. (UID-4)
+####################################################################################
+#########################################################
+#### Section 7 : wireload Model ####
+#########################################################
+####################################################################################
+set_wire_load_model -name tsmc13_wl30 -library scmetro_tsmc_cl013g_rvt_ss_1p08v_125
+Error: Current design is not defined. (UID-4)
+####################################################################################
+#########################################################
+#### Section 8 : multicycle path ####
+#########################################################
+####################################################################################
+###################### Mapping and optimization ########################
+puts "###############################################"
+###############################################
+puts "########## Mapping & Optimization #############"
+########## Mapping & Optimization #############
+puts "###############################################"
+###############################################
+compile -map_effort high
+Error: Current design is not defined. (UID-4)
+0
+#############################################################################
+# Write out Design after initial compile
+#############################################################################
+write_file -format verilog -output UART_TX.v
+Error: No files or designs were specified. (UID-22)
+0
+write_file -format ddc -output UART_TX.ddc
+Error: No files or designs were specified. (UID-22)
+0
+write_sdf UART_TX.sdf
+Error: Current design is not defined. (UID-4)
+0
+write_sdc UART_TX.sdc
+Error: Current design is not defined. (UID-4)
+0
+#############################################################################
+################# reporting #######################
+report_area -hierarchy > area.rpt
+report_power -hierarchy > power.rpt
+report_timing -max_paths 100 -delay_type min > hold.rpt
+report_timing -max_paths 100 -delay_type max > setup.rpt
+report_clock -attributes > clocks.rpt
+report_constraint -all_violators > constraints.rpt
+################# starting graphical user interface #######################
+exit
+
+Memory usage for main task 65 Mbytes.
+Memory usage for this session 65 Mbytes.
+CPU usage for this session 1 seconds ( 0.00 hours ).
+
+Thank you...

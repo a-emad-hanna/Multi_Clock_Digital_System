@@ -1,0 +1,30 @@
+vlib work
+vlog -f source_file.txt
+vsim -voptargs=+accs work.System_Top_tb
+add wave *
+add wave -position insertpoint  \
+sim:/System_Top_tb/DUT/UART_TX_TOP/F1/current_state
+add wave -position insertpoint  \
+sim:/System_Top_tb/DUT/UART_RX_TOP/F1/current_state
+add wave -position insertpoint  \
+sim:/System_Top_tb/DUT/SYS_CTRL/current_state
+add wave -position insertpoint  \
+sim:/System_Top_tb/DUT/FIFO_TOP/fifomem/mem
+add wave -position insertpoint  \
+sim:/System_Top_tb/DUT/RegFile/registers
+add wave -position insertpoint  \
+sim:/System_Top_tb/DUT/SYS_CTRL/RX_P_DATA
+add wave -position insertpoint  \
+sim:/System_Top_tb/DUT/SYS_CTRL/RX_D_VLD
+add wave -position insertpoint  \
+sim:/System_Top_tb/DUT/FIFO_TOP/winc
+add wave -position insertpoint  \
+sim:/System_Top_tb/DUT/FIFO_TOP/wdata
+add wave -position insertpoint  \
+sim:/System_Top_tb/DUT/UART_TX_TOP/busy
+add wave -position insertpoint  \
+sim:/System_Top_tb/DUT/FIFO_TOP/rempty
+add wave -position insertpoint  \
+sim:/System_Top_tb/DUT/UART_TX_TOP/parallel_data
+radix -hexadecimal
+run -all

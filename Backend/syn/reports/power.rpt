@@ -1,0 +1,74 @@
+Loading db file '/home/IC/Assignments/Final_System/std_cells/scmetro_tsmc_cl013g_rvt_ss_1p08v_125c.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : System_Top
+Version: K-2015.06
+Date   : Mon Aug 19 03:30:02 2024
+****************************************
+
+
+Library(s) Used:
+
+    scmetro_tsmc_cl013g_rvt_ss_1p08v_125c (File: /home/IC/Assignments/Final_System/std_cells/scmetro_tsmc_cl013g_rvt_ss_1p08v_125c.db)
+
+
+Operating Conditions: scmetro_tsmc_cl013g_rvt_ss_1p08v_125c   Library: scmetro_tsmc_cl013g_rvt_ss_1p08v_125c
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 1.08 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+System_Top                             5.26e-03    0.200 1.33e+07    0.219 100.0
+  PULSE_GEN (PULSE_GEN)                   0.000 9.96e-06 2.32e+04 3.32e-05   0.0
+  UART_TX_TOP (UART_TX_TOP)            2.01e-04 1.63e-04 7.08e+05 1.07e-03   0.5
+    M1 (UART_TX_MUX)                      0.000    0.000 3.12e+04 3.12e-05   0.0
+    P1 (UART_TX_Parity_Calculator)        0.000 4.98e-06 1.10e+05 1.15e-04   0.1
+    S1 (UART_TX_Serializer)               0.000 6.97e-05 2.87e+05 3.56e-04   0.2
+    F1 (UART_TX_FSM)                      0.000 2.48e-05 1.42e+05 1.67e-04   0.1
+  UART_RX_TOP (UART_RX_TOP)            1.31e-04 1.91e-03 1.07e+06 3.11e-03   1.4
+    S2 (UART_RX_stop_checker)             0.000 5.62e-05 2.13e+04 7.74e-05   0.0
+    S1 (UART_RX_start_checker)            0.000 5.68e-05 1.90e+04 7.57e-05   0.0
+    P1 (UART_RX_parity_checker)           0.000 5.62e-05 1.16e+05 1.72e-04   0.1
+    E1 (UART_RX_edge_bit_counter)      4.50e-05 6.89e-04 2.88e+05 1.02e-03   0.5
+    D2 (UART_RX_deserializer)             0.000 4.86e-04 1.22e+05 6.08e-04   0.3
+    D1 (UART_RX_data_sampler)          6.99e-06 1.92e-04 6.40e+04 2.63e-04   0.1
+    F1 (UART_RX_FSM)                   7.87e-05 3.72e-04 4.36e+05 8.86e-04   0.4
+  FIFO_TOP (FIFO_TOP)                     0.000 6.32e-02 2.33e+06 6.55e-02  29.9
+    wptr_full (FIFO_WR)                   0.000 6.51e-03 2.34e+05 6.74e-03   3.1
+    rptr_empty (FIFO_RD)                  0.000 4.46e-05 2.35e+05 2.79e-04   0.1
+    fifomem (FIFO_MEM_CNTRL)              0.000 5.08e-02 1.70e+06 5.25e-02  24.0
+    sync_r2w (FIFO_DF_SYNC_1)             0.000 5.79e-03 8.27e+04 5.87e-03   2.7
+    sync_w2r (FIFO_DF_SYNC_0)             0.000 3.98e-05 7.48e+04 1.15e-04   0.1
+  SYS_CTRL (SYS_CTRL)                     0.000 5.82e-03 4.62e+05 6.28e-03   2.9
+  RX_CLK_DIV (ClkDiv_1)                2.20e-04 5.80e-04 5.38e+05 1.34e-03   0.6
+    add_48 (ClkDiv_1_DW01_inc_0)          0.000    0.000 8.47e+04 8.47e-05   0.0
+  TX_CLK_DIV (ClkDiv_0)                6.01e-05 7.71e-04 4.96e+05 1.33e-03   0.6
+    add_48 (ClkDiv_0_DW01_inc_0)       5.20e-06 2.10e-05 8.42e+04 1.10e-04   0.1
+  CLK_GATE (CLK_GATE)                  1.51e-03 4.65e-03 3.71e+04 6.20e-03   2.8
+  RegFile (RegFile)                    1.92e-03 9.96e-02 3.14e+06    0.105  47.8
+  ALU (ALU)                               0.000 1.23e-02 4.23e+06 1.65e-02   7.6
+    mult_36 (ALU_DW02_mult_0)             0.000    0.000 1.63e+06 1.63e-03   0.7
+    add_34 (ALU_DW01_add_0)               0.000    0.000 2.05e+05 2.05e-04   0.1
+    sub_35 (ALU_DW01_sub_0)               0.000    0.000 2.48e+05 2.48e-04   0.1
+    div_41 (ALU_DW_div_uns_0)             0.000    0.000 1.24e+06 1.24e-03   0.6
+  DATA_SYNC (DATA_SYNC)                   0.000 8.68e-03 1.72e+05 8.85e-03   4.0
+  RST_SYNC_2 (RST_SYNC_1)              6.46e-06 2.36e-04 2.40e+04 2.67e-04   0.1
+  RST_SYNC_1 (RST_SYNC_0)              1.30e-05 2.24e-03 2.53e+04 2.28e-03   1.0
+1

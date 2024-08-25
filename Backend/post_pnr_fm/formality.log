@@ -1,0 +1,102 @@
+****************************************************
+
+Info:  Net Ref:/WORK/System_Top/SO[3] is undriven.
+Info:  Net Ref:/WORK/System_Top/SO[2] is undriven.
+Info:  Net Ref:/WORK/System_Top/SO[1] is undriven.
+Info:  Net Ref:/WORK/System_Top/SO[0] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[8][7] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[8][6] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[8][5] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[8][4] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[8][3] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[8][2] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[8][1] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[8][0] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[9][7] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[9][6] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[9][5] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[9][4] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[9][3] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[9][2] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[9][1] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[9][0] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[10][7] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[10][6] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[10][5] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[10][4] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[10][3] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[10][2] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[10][1] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[10][0] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[11][7] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[11][6] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[11][5] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[11][4] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[11][3] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[11][2] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[11][1] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[11][0] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[12][7] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[12][6] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[12][5] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[12][4] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[12][3] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[12][2] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[12][1] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[12][0] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[13][7] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[13][6] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[13][5] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[13][4] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[13][3] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[13][2] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[13][1] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[13][0] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[14][7] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[14][6] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[14][5] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[14][4] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[14][3] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[14][2] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[14][1] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[14][0] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[15][7] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[15][6] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[15][5] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[15][4] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[15][3] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[15][2] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[15][1] is undriven.
+Info:  Net Ref:/WORK/FIFO_MEM_CNTRL_DSIZE8_PTR_SIZE4/mem[15][0] is undriven.
+Info:  Net Imp:/WORK/ALU_DW_div_uns_0/remainder[7] is undriven.
+Info:  Net Imp:/WORK/ALU_DW_div_uns_0/remainder[6] is undriven.
+Info:  Net Imp:/WORK/ALU_DW_div_uns_0/remainder[5] is undriven.
+Info:  Net Imp:/WORK/ALU_DW_div_uns_0/remainder[4] is undriven.
+Info:  Net Imp:/WORK/ALU_DW_div_uns_0/remainder[3] is undriven.
+Info:  Net Imp:/WORK/ALU_DW_div_uns_0/remainder[2] is undriven.
+Info:  Net Imp:/WORK/ALU_DW_div_uns_0/remainder[1] is undriven.
+Info:  Net Imp:/WORK/ALU_DW_div_uns_0/remainder[0] is undriven.
+Info:  Net Imp:/WORK/ALU_DW_div_uns_0/divide_by_0 is undriven.
+Info:  Net Imp:/WORK/ALU_DW01_sub_0/CO is undriven.
+Info:  Net Imp:/WORK/ALU_DW01_add_0/CO is undriven.
+Info:  Net Imp:/WORK/ALU_DW01_add_1/CO is undriven.
+Info:  guide_transformation 52 (Line: 482)  Rejected transformation 52 because design 'ALU' cannot be found.
+Info:  guide_transformation 52 (Line: 482) Retrying with unread processing enabled.
+Info:  guide_transformation 52 (Line: 482)  Rejected transformation 52 because design 'ALU' cannot be found.
+Info:  SVF Operation 52 (Line: 482) - transformation_share.  Status: rejected
+
+Info:  guide_uniquify 57 (Line: 545)  Cannot find object "RX_CLK_DIV/U11" in design 'System_Top'.
+Info:  SVF Operation 57 (Line: 545) - uniquify.  Status: rejected
+Info:  guide_uniquify 57 (Line: 545)  Cannot find object "TX_CLK_DIV/U11" in design 'System_Top'.
+Info:  guide_uniquify 57 (Line: 545)  Cannot find object "U6_mux2X1/U1" in design 'System_Top'.
+Info:  guide_uniquify 57 (Line: 545)  Cannot find object "U5_mux2X1/U1" in design 'System_Top'.
+Info:  guide_uniquify 57 (Line: 545)  Cannot find object "U4_mux2X1/U1" in design 'System_Top'.
+Info:  guide_uniquify 57 (Line: 545)  Cannot find object "U3_mux2X1/U1" in design 'System_Top'.
+Info:  guide_uniquify 57 (Line: 545)  Cannot find object "U2_mux2X1/U1" in design 'System_Top'.
+Info:  guide_uniquify 57 (Line: 545)  Cannot find object "U1_mux2X1/U1" in design 'System_Top'.
+Info:  guide_uniquify 57 (Line: 545)  Cannot find object "U0_mux2X1/U1" in design 'System_Top'.
+Info:  guide_uniquify 65 (Line: 598)  Cannot find object "ALU/dp_cluster_0/mult_36" in design 'System_Top'.
+Info:  Pre-verification of Ref:/WORK/ALU_OPSIZE8_OUT_SIZE16/div_41 SUCCEEDED.
+Info:  Pre-verification of Ref:/WORK/ALU_OPSIZE8_OUT_SIZE16/mult_36 SUCCEEDED.
+****************************************************
+
