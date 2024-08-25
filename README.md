@@ -39,24 +39,20 @@ The Multi Clock Digital System project is designed to manage and execute various
 ### Supported Commands
 
 1. **Register File Write Command (3 frames):**
-    ![Register File Read Command](2.png)
 
-   RF_Wr_CMD (0xAA) | RF_Wr_Addr | RF_Wr_Data
-   Frame 0          | Frame 1    | Frame 2
+    ![Register File Write Command](2.png)
 
 2. **Register File Read Command (2 frames)**
 
-   RF_Rd_CMD (0xBB) | RF_Wr_Addr 
+    ![Register File Read Command](3.png)
 
 3. **ALU Operation Command with Operand (4 frames)**
 
-   ALU_OPER_W_OP_CMD (0xCC) | Operand A | Operand B | ALU FUNCTION
-   Frame 0                  | Frame 1   | Frame 2   | Frame 3
+    ![ALU Operation Command with Operand](4.png)
 
 4. **ALU Operation Command with No Operand (2 frames)**
 
-   ALU_OPER_W_OP_CMD (0xCC) | ALU FUNCTION
-   Frame 0                  | Frame 1
+    ![ALU Operation Command with No Operand](5.png)
 
 ## System Specifications
 - **Reference Clock (REF_CLK)**: 50 MHz
