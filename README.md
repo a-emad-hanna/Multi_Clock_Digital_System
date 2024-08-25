@@ -14,23 +14,6 @@ The Multi Clock Digital System project is designed to manage and execute various
 - **Clock Management**: Incorporates clock division and clock gating for efficient power management.
 - **Synchronizers**: Ensures proper data synchronization across different clock domains.
 
-Here’s a draft README for your Multi Clock Digital System project repository:
-
----
-
-# Multi Clock Digital System
-
-## Overview
-The Multi Clock Digital System project is designed to manage and execute various system functions by processing commands received through a UART interface. This system handles tasks such as register file reading/writing and ALU-based processing, with results transmitted via an asynchronous FIFO to ensure data integrity across different clock domains.
-
-## Features
-- **UART Communication**: Handles data reception and transmission through UART.
-- **Asynchronous FIFO**: Manages data transfer between different clock domains to prevent data loss.
-- **ALU Operations**: Performs arithmetic and logic operations.
-- **Register File**: Facilitates data storage and retrieval.
-- **Clock Management**: Incorporates clock division and clock gating for efficient power management.
-- **Synchronizers**: Ensures proper data synchronization across different clock domains.
-
 ## Project Phases
 
 ### 1. RTL Design
