@@ -39,6 +39,7 @@ The Multi Clock Digital System project is designed to manage and execute various
 ### Supported Commands
 
 1. **Register File Write Command (3 frames):**
+    ![Register File Read Command](2.png)
 
    RF_Wr_CMD (0xAA) | RF_Wr_Addr | RF_Wr_Data
    Frame 0          | Frame 1    | Frame 2
