@@ -14,6 +14,53 @@ The Multi Clock Digital System project is designed to manage and execute various
 - **Clock Management**: Incorporates clock division and clock gating for efficient power management.
 - **Synchronizers**: Ensures proper data synchronization across different clock domains.
 
+## Supported Operations
+
+1. **ALU Operations:**
+   - Addition
+   - Subtraction
+   - Multiplication
+   - Division
+   - AND
+   - OR
+   - NAND
+   - NOR
+   - XOR
+   - XNOR
+   - Compare: A = B
+   - Compare: A > B
+   - Shift: A >> 1
+   - Shift: A << 1
+
+2. **Register File Operations:**
+   - Register File Write
+   - Register File Read
+
+### Supported Commands
+
+1. **Register File Write Command (3 frames):**
+
+   RF_Wr_CMD (0xAA) | RF_Wr_Addr | RF_Wr_Data
+   Frame 0          | Frame 1    | Frame 2
+
+2. **Register File Read Command (2 frames)**
+
+   RF_Rd_CMD (0xBB) | RF_Wr_Addr 
+
+3. **ALU Operation Command with Operand (4 frames)**
+
+   ALU_OPER_W_OP_CMD (0xCC) | Operand A | Operand B | ALU FUNCTION
+   Frame 0                  | Frame 1   | Frame 2   | Frame 3
+
+4. **ALU Operation Command with No Operand (2 frames)**
+
+   ALU_OPER_W_OP_CMD (0xCC) | ALU FUNCTION
+   Frame 0                  | Frame 1
+
+## System Specifications
+- **Reference Clock (REF_CLK)**: 50 MHz
+- **UART Clock (UART_CLK)**: 3.6864 MHz
+
 ## Project Phases
 
 ### 1. RTL Design
