@@ -4,7 +4,7 @@
 The Multi Clock Digital System project is designed to manage and execute various system functions by processing commands received through a UART interface. This system handles tasks such as register file reading/writing and ALU-based processing, with results transmitted via an asynchronous FIFO to ensure data integrity across different clock domains.
 
 ## System Architecture
-![System Architecture](1.png)
+![System Architecture](readme_images/1.png)
 
 ## Features
 - **UART Communication**: Handles data reception and transmission through UART.
@@ -40,19 +40,19 @@ The Multi Clock Digital System project is designed to manage and execute various
 
 1. **Register File Write Command (3 frames):**
 
-    ![Register File Write Command](2.png)
+    ![Register File Write Command](readme_images/2.png)
 
 2. **Register File Read Command (2 frames)**
 
-    ![Register File Read Command](3.png)
+    ![Register File Read Command](readme_images/3.png)
 
 3. **ALU Operation Command with Operand (4 frames)**
 
-    ![ALU Operation Command with Operand](4.png)
+    ![ALU Operation Command with Operand](readme_images/4.png)
 
 4. **ALU Operation Command with No Operand (2 frames)**
 
-    ![ALU Operation Command with No Operand](5.png)
+    ![ALU Operation Command with No Operand](readme_images/5.png)
 
 ## System Specifications
 - **Reference Clock (REF_CLK)**: 50 MHz
